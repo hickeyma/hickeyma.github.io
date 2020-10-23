@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martin Hickey</title>
+    <link>https://hickeyma.github.io/</link>
+    <description>Recent content on Martin Hickey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Martin Hickey</copyright>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hickeyma.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Seed to Harvest: A Story of How an Open Source Project Evolved</title>
+      <link>https://hickeyma.github.io/blogs/2020-10-23-open-source-project-evolution/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hickeyma.github.io/blogs/2020-10-23-open-source-project-evolution/</guid>
+      <description>I was thinking lately about conferences and it reminded me of two which hold fond memories for me: my first KubeCon/CloudnativeCon and my first Helm summit. As I reminisced, I realized then that these two conferences struck a cord with me because of my journey starting out with Helm 3 at KubeCon/CloudnativeCon NA 2018 (Seattle) and the release nearing completion at the Helm summit 2019 (Amsterdam). Helm 3 was released in time for KubeCon/CloudnativeCon NA 2019 and it made me wonder how things evolved in such a relative short space of time.</description>
+    </item>
+    
+  </channel>
+</rss>
