@@ -24,20 +24,31 @@
   </url>
   
   <url>
-    <loc>https://hickeyma.github.io/talks/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hickeyma.github.io/designs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>https://hickeyma.github.io/streams/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hickeyma.github.io/talks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hickeyma.github.io/techs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hickeyma.github.io/workshops/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
