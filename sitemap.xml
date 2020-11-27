@@ -24,6 +24,13 @@
   </url>
   
   <url>
+    <loc>https://hickeyma.github.io/blogs/2019-11-14-what-in-helm3/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hickeyma.github.io/designs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
