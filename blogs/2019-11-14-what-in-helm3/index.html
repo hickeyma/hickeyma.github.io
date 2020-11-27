@@ -189,9 +189,9 @@ The excitement for this release has been heightened by the longing for the remov
 </ul>
 <h2 id="client-only-architecture">Client only architecture</h2>
 <p>To recap, Helm v2 is a client-server architecture with the client called <code>helm</code> and the server called <code>Tiller</code>. The client is a CLI which users interact with to perform different operations like install/upgrade/delete etc. The client interacts with Tiller and the chart repository. Tiller interacts with the Kubernetes API server. It renders Helm template files into Kubernetes manifest files which it uses to perform operations on the Kubernetes cluster via the Kubernetes API.</p>
-<p><img src="images/helm2-arch.png" alt="Helm v2 architecture"></p>
+<p><img src="../images/helm2-arch.png" alt="Helm v2 architecture"></p>
 <p>Helm v3 has a client only architecture with the client still called <code>helm</code>. It performs similar to the Helm v2 client except that the client interacts directly with the Kubernetes API server. The in-cluster server <code>Tiller</code> is now removed.</p>
-<p><img src="images/helm3-arch.png" alt="Helm v3 architecture"></p>
+<p><img src="../images/helm3-arch.png" alt="Helm v3 architecture"></p>
 <p>The main benefit of the removal of Tiller is that security is now on a per user basis - delegated to Kubernetes user cluster security. It means that access to the cluster using Helm v3 is going to be similar to <code>kubectl</code>, for example <a href="https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/">kubeconfig files</a>.</p>
 <p>Let’s look at an example to explain the impact of the removal of Tiller. Note: In the examples shown, <a href="https://github.com/ahmetb/kubectx">kubectx</a> is used. This is a very useful project built on top of <code>kubectl</code> which provides the following tools:</p>
 <ul>
